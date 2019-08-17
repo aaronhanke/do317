@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('//dostuff-assets.s3.amazonaws.com/property_asset/56591/uni-sans.heavy-caps.woff') format('woff'),
+        url('//dostuff-assets.s3.amazonaws.com/property_asset/56590/uni-sansheavy-caps.woff2') format('woff2');
+    font-style: normal;
+}
+
+.ds-listings-header .ds-cover-image:after {
+    background: #0e76bc;
+    opacity: .6;
+}
+
+html body .ds-page-wrapper .ds-listings-header .ds-detail-title {
+    text-align: center;
+    max-width: none;
+    position: relative;
+    padding-left: 0vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    padding-right: 0vw !important;
+    vertical-align: middle;
+    outline: 0px solid;
+    font-family: 'Uni Sans', sans-serif !important;
+    font-size: 6em !important;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:767px) {
+html body .ds-page-wrapper .ds-listings-header .ds-detail-title {
+    text-align: center;
+    max-width: none;
+    position: relative;
+    padding-left: 0vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    padding-right: 0vw !important;
+    vertical-align: middle;
+    outline: 0px solid;
+    font-family: 'Uni Sans', sans-serif !important;
+    font-size: 7vw !important;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+}
+
+html body #ds-custom-page-content h1 {
+   font-size: 59px;
+   line-height: 66px;
+   margin: 0px 0px 0.37em 0px;
+   font-family: "Oswald";
+   text-transform: uppercase;
+   text-align: center;
+   letter-spacing: 0px;
+   font-weight: 700;
+   font-style: normal;
+   color: rgba(255, 255, 255, 1);
+   text-shadow: 0px 0px 8px rgba(160, 159, 159, 1);
+}
+
+html body #ds-custom-page-content p span,
+html body #ds-custom-page-content p  {
+font-family: 'Roboto', sans-serif;
+font-weight:400;
+color:#666666;
+font-size:15px;
+line-height:24px;
+padding:0;
+margin:0; 
+}
+
+#ds-custom-page-content h3 {
+font-family: 'Uni Sans', sans-serif;
+font-weight:700;
+letter-spacing: 6px;
+color:#333;
+font-size:50px;
+line-height:45px;
+margin:0 0 8px;
+padding:0; 
+border-bottom:0px solid #333333;
+text-transform:uppercase;
+border:none !important;
+}
+
+#ds-custom-page-content h4 {
+font-family: 'Roboto Slab', serif;
+font-weight:700;
+color:#333;
+text-transform:none;
+font-size:35px;
+line-height:40px;
+padding:0;
+margin:0; 
+border:none !important;
+}
+
+html body #ds-custom-page-content img {
+width:100%;
+}
+
+a {
+    color: #0080FF;
+}
+
+a:hover {
+    color: #0a74ff;
+}
+
+hr {
+width:45%;
+margin:0 auto;
+text-align:center;
+align-content: center;
+    border: 2px solid;
+}
+
+div#ds-custom-page-content {
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 0;
+}
+.ds-nopad {
+    margin-left: -26px;
+    margin-right: -26px;
+}
+@media (max-width:767px) {
+div#ds-custom-page-content {
+    margin-top: 0;
+}
+
+}
+
+.has-new-nav .ds-listings-main.section {
+    padding-top: 20px;
+    border-top: 20px solid #333;
+}
+
+.ds-listing.ds-listing-view-list .ds-slim-avatar, .ds-listing.ds-listing-view-slim .ds-slim-avatar {
+    display: none;
+}
+.ds-listing.ds-listing-view-list.ds-listing-view-slim .ds-title, .ds-listing.ds-listing-view-slim.ds-listing-view-slim .ds-title {
+    padding: 12px 0 0 0 !important;
+}
+.ds-listing.ds-listing-view-list, .ds-listing.ds-listing-view-slim {
+    padding: 1rem 1rem .25rem;
+}
+div#ds-custom-page div#ds-custom-page-content div.ds-listing .ds-title a.ds-event-title span {
+    font-size: 1.5rem !important;
+}
+body[data-action="pages/show"] .ds-listing span.ds-listing-extras {
+    display: none;
+}
+body[data-action="pages/show"] .ds-listing:hover {
+    color: #fff;
+    background: rgba(40,40,40,0.35);
+    z-index: 1;
+}
+body[data-action="pages/show"] .ds-main .ds-listing.ds-listing-event:hover .ds-event-artists a, body[data-action="pages/show"] .ds-main .ds-listing.ds-listing-event:hover .ds-title .ds-byline, body[data-action="pages/show"] .ds-main .ds-listing.ds-listing-event:hover .ds-event-meta a, body[data-action="pages/show"] .ds-main .ds-listing.ds-listing-event:hover a.ds-event-title, body[data-action="pages/show"] .ds-main .ds-listing.ds-listing-event:hover a.ds-venue, body[data-action="pages/show"] .ds-main .ds-listing.ds-listing-event:hover .ds-listing-extra p {
+    color: #fff;
+}
+body[data-action="pages/show"] .ds-main .ds-listing .ds-cover-image {
+    opacity: .9;
+}
+
+.user:hover {
+opacity: 0.8;
+}
+
+.user:hover {
+opacity: 0.8;
+}
+
+ul.rig {
+    list-style: none;
+    font-size: 0px;
+    margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0 0 0 2.5%;
+    background: none;
+    border: none;
+    vertical-align: top;
+    box-shadow: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+ul.rig li img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 1px;
+}
+ul.rig li h3 {
+    margin: 0 0 5px;
+}
+ul.rig li p {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #999;
+}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+    width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+    width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+    width: 22.5%; /* this value + 2.5 should = 25% */
+}
+@media (max-width: 600px) {
+    ul.grid-nav li {
+        display: block;
+        margin: 0 0 5px;
+    }
+    ul.grid-nav li a {
+        display: block;
+    }
+    ul.rig {
+        margin-left: 0;
+    }
+    ul.rig li {
+        width: 100% !important; /* over-ride all li styles */
+        margin: 0 0 20px;
+    }

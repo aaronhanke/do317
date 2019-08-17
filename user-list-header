@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('//dostuff-assets.s3.amazonaws.com/property_asset/56591/uni-sans.heavy-caps.woff') format('woff'),
+        url('//dostuff-assets.s3.amazonaws.com/property_asset/56590/uni-sansheavy-caps.woff2') format('woff2');
+    font-style: normal;
+}
+
+.ds-listings-header .ds-cover-image:after {
+    background: #0e76bc;
+    opacity: .6;
+}
+
+html body .ds-page-wrapper .ds-listings-header .ds-detail-title {
+    text-align: center;
+    max-width: none;
+    position: relative;
+    padding-left: 0vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    padding-right: 0vw !important;
+    vertical-align: middle;
+    outline: 0px solid;
+    font-family: 'Uni Sans', sans-serif !important;
+    font-size: 6em !important;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:767px) {
+html body .ds-page-wrapper .ds-listings-header .ds-detail-title {
+    text-align: center;
+    max-width: none;
+    position: relative;
+    padding-left: 0vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    padding-right: 0vw !important;
+    vertical-align: middle;
+    outline: 0px solid;
+    font-family: 'Uni Sans', sans-serif !important;
+    font-size: 7vw !important;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+}
+
+html body #ds-custom-page-content h1 {
+   font-size: 59px;
+   line-height: 66px;
+   margin: 0px 0px 0.37em 0px;
+   font-family: "Oswald";
+   text-transform: uppercase;
+   text-align: center;
+   letter-spacing: 0px;
+   font-weight: 700;
+   font-style: normal;
+   color: rgba(255, 255, 255, 1);
+   text-shadow: 0px 0px 8px rgba(160, 159, 159, 1);
+}
